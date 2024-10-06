@@ -1,0 +1,72 @@
+/* NewsletterSubscription.css */
+
+.outer-container {
+    width: 1349px;
+    height: 424px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.inner-container {
+    width: 1140px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.sub-header-container {
+    width: 1140px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0 0;
+}
+
+.sub-header {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.email-container {
+    width: 500px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 40px; /* Adjust this value to move the email input down */
+}
+
+.email-input {
+    width: 100%; /* Adjust width as needed */
+    height: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.subscribe-button {
+    width: 28%; /* Adjust width as needed */
+    height: 100%;
+    background-color: #11B2A8; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

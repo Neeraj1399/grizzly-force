@@ -1,0 +1,95 @@
+.footer-container {
+    width: 1349px; /* Total width */
+    height: 802.42px; /* Total height */
+    padding: 80px 0; /* Padding top and bottom */
+    background-color: #f8f8f8; /* Background color */
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between columns */
+  }
+  
+  /* Left Column Styles */
+  .footer-left-column {
+    width: 481.66px; /* Width of the left column */
+    padding: 16px 0 0 16px; /* Padding for left column */
+  }
+  
+  .footer-logo {
+    width: 384px; /* Width of the logo */
+    height: 54px; /* Height of the logo */
+  }
+  
+  .footer-description {
+    width: 384px; /* Width of the description */
+    height: 112px; /* Height of the description */
+    font-size: 18px; /* Font size */
+    font-family: sans-serif; /* Font family */
+    margin: 4px 0 40px; /* Margin around the description */
+  }
+  
+  /* Footer Icons Styles */
+  .footer-icons {
+    display: flex; /* Flexbox for icon alignment */
+    gap: 10px; /* Space between icons */
+  }
+  
+  /* Footer Columns Styles */
+  .footer-columns {
+    display: flex; /* Flexbox for column layout */
+  }
+  
+  /* Individual Footer Column Styles */
+  .footer-column {
+    width: 168.58px; /* Width for each sub-column */
+    padding: 16px; /* Padding */
+  }
+  
+  /* Subtitle Styles in Columns */
+  .footer-column h4 {
+    font-size: 16px; /* Subtitle font size */
+    font-family: "Montserrat", sans-serif; /* Font family */
+    margin: 0 0 25px; /* Margin below subtitle */
+  }
+  
+  /* List Styles in Columns */
+  .footer-column ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    font-size: 16px; /* Font size */
+    font-family: sans-serif; /* Font family */
+    margin: 0; /* No margin around the list */
+  }
+  
+  .footer-column ul li {
+    margin: 0 0 16px; /* Margin below list items */
+  }
+  
+  /* Rights Section Styles */
+  .footer-rights-section {
+    display: flex; /* Flexbox for icons and rights statement */
+    justify-content: space-between; /* Space between items */
+    padding: 48px 0 0; /* Padding */
+    margin: 8px 0 0; /* Margin */
+    width: 100%; /* Full width */
+  }
+  
+  .footer-rights {
+    width: 570px; /* Width for rights statement */
+    font-size: 18px; /* Font size for rights statement */
+    font-family: sans-serif; /* Font family */
+    margin: 0; /* No margin */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .footer-social-icons {
+    display: flex; /* Flexbox for icons */
+    gap: 20px; /* Space between social icons */
+    justify-content: flex-end; /* Align to the right */
+    width: 570px; /* Width for social icons section */
+  }
+  
+  /* Social Icon Styles */
+  .social-icon {
+    width: 24px; /* Adjust icon width */
+    height: 24px; /* Adjust icon height */
+  }
+  

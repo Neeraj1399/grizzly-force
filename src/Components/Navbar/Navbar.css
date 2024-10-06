@@ -1,0 +1,139 @@
+/* Base Styling for the Navbar */
+.navbar {
+    background-color: #fff;
+    padding: 0 60px; /* Horizontal padding */
+    height: 94px; /* Set navbar height */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: -10px; /* Move the navbar slightly up */
+    margin-left: -20px; /* Move navbar further to the left */
+}
+
+/* Logo Styles */
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 54px; /* Reduced left margin for the logo */
+    flex: 1; /* Allow the logo to take available space */
+}
+
+.logo-img {
+    height: 48px;
+    width: 142px;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none; /* Hidden by default */
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+    margin-right: 54px; /* Right margin for the hamburger menu */
+}
+
+/* Navigation Links Styling */
+.nav-links {
+    display: flex;
+    gap: 8px; /* Space between links */
+    list-style: none;
+    margin-left: 12px; /* Reduced left margin */
+    align-items: center;
+}
+
+/* Auth Links Styling */
+.auth-links {
+    display: flex;
+    gap: 0; /* No gap by default */
+    list-style: none;
+    padding-right: 44px; /* Reduced padding on the right */
+}
+
+/* Navbar Link Styles */
+.nav-links li a,
+.auth-links li a {
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0 14px;
+    transition: color 0.3s;
+}
+
+/* Adjusting the "Login" link specifically */
+.auth-links li a.login {
+    padding: 0px; /* Move the Login link slightly to the right */
+}
+
+.nav-links li a:hover,
+.auth-links li a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Button Styles */
+.account-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 13px 51px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+    margin-left: 70px; /* Adjust this value to move left */
+}
+
+.account-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row; /* Ensure navbar items are in a row */
+        padding: 16px;
+    }
+
+    .logo {
+        flex: 1; /* Keep logo on the left */
+    }
+
+    .hamburger {
+        display: block; /* Show hamburger on smaller screens */
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        display: none; /* Hide by default */
+        position: absolute; /* Position it absolutely for overlay */
+        top: 94px; /* Position below navbar */
+        left: 0; /* Align to the left */
+        background-color: #fff; /* Background for dropdown */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for dropdown */
+    }
+
+    .nav-links.open {
+        display: flex; /* Show when hamburger menu is toggled */
+    }
+
+    .nav-links li {
+        margin: 8px 0;
+    }
+
+    .account-btn {
+        width: 100%; /* Full width for mobile */
+    }
+}
+
+/* Extra hover effect for the button */
+.account-btn:hover {
+    background-color: #0056b3;
+}

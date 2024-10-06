@@ -1,0 +1,114 @@
+.grid-layout {
+  display: flex;
+  padding: 20px;
+  margin-left: 100px; /* Move the layout to the right */
+}
+
+.left-column {
+  flex: 1;
+  padding-right: 20px; /* Space between columns */
+}
+
+.heading {
+  font-size: 58px;
+  color: black; /* Text color for the heading */
+  line-height: 1.2; /* Line height adjustment */
+}
+
+.heading span {
+  display: block; /* Each word/phrase on a new line */
+}
+
+.content {
+  font-size: 15px;
+  margin-bottom: 20px; /* Space below the content */
+  width: 530px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+.action-button {
+  width: 160px;  /* Set the button width */
+  height: 60px;  /* Set the button height */
+  border-radius: 16px; /* Rounded corners */
+  font-size: 16px;
+  padding: 10px 20px; /* Adjust button size */
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+/* Find Workers Button - Black background with white text */
+.action-button:nth-child(1) {
+  background-color: black;
+}
+
+/* Find Jobs Button - #11B2A8 background with white text */
+.action-button:nth-child(2) {
+  background-color: #11B2A8;
+}
+
+/* Right Column Layout */
+.right-column {
+  display: grid;
+  grid-template-columns: 183.56px 386.44px; /* Vertical block + Horizontal block */
+  grid-template-rows: auto; /* Rows will auto-adjust based on content */
+  grid-gap: 20px; /* Gap between vertical and horizontal blocks */
+  width: 570px;
+  height: 704.4px;
+}
+
+/* Vertical Block (Col_1, Col_2, Col_3) */
+.vertical-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  width: 183.56px;
+  padding: 15px;
+  background-color: #f0f0f0; /* Optional background */
+}
+
+.block img {
+  width: 153.56px;
+  height: 153.56px;
+  object-fit: cover;
+}
+
+/* Horizontal Block */
+.horizontal-block {
+  display: grid;
+  grid-template-columns: 164px 190px;
+  grid-gap: 15px;
+  width: 386.44px;
+  height: 266px;
+}
+
+.col-4 {
+  width: 164px;
+  height: 196x;
+  padding: 15px;
+}
+
+.col-4 img {
+  width: 134px;
+  height: 152px;
+  object-fit: cover;
+  
+}
+
+.col-7 {
+  width: 190px;
+  height: 196px;
+  padding: 15px;
+}
+
+.col-7 img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
