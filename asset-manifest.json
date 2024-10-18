@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/grizzly-force/static/css/main.98cde14e.css",
-    "main.js": "/grizzly-force/static/js/main.17e3f6fc.js",
+    "main.css": "/grizzly-force/static/css/main.a0edbfbf.css",
+    "main.js": "/grizzly-force/static/js/main.5a514296.js",
     "static/js/453.e210d090.chunk.js": "/grizzly-force/static/js/453.e210d090.chunk.js",
     "static/media/GrizzlyForce_Logo-Horizontal_LightBackground.svg": "/grizzly-force/static/media/GrizzlyForce_Logo-Horizontal_LightBackground.3bdd01f3063e270147e15e5cd89f5cfa.svg",
     "index.html": "/grizzly-force/index.html",
     "static/media/menu.svg": "/grizzly-force/static/media/menu.d95143a0c4a763d54bb4d67d5a840be9.svg",
-    "main.98cde14e.css.map": "/grizzly-force/static/css/main.98cde14e.css.map",
-    "main.17e3f6fc.js.map": "/grizzly-force/static/js/main.17e3f6fc.js.map",
+    "main.a0edbfbf.css.map": "/grizzly-force/static/css/main.a0edbfbf.css.map",
+    "main.5a514296.js.map": "/grizzly-force/static/js/main.5a514296.js.map",
     "453.e210d090.chunk.js.map": "/grizzly-force/static/js/453.e210d090.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98cde14e.css",
-    "static/js/main.17e3f6fc.js"
+    "static/css/main.a0edbfbf.css",
+    "static/js/main.5a514296.js"
   ]
 }
